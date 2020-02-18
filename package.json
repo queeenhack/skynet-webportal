@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build:client": "yarn workspace sia-skynet build",
-    "start:client": "yarn workspace sia-skynet start",
+    "build:client": "yarn workspace skynet-client build",
+    "start:client": "yarn workspace skynet-client start",
     "build:server": "yarn workspace siaviewnode-server build",
     "start:server": "yarn workspace siaviewnode-server start",
     "start": "concurrently \"yarn start:client\" \"yarn start:server\""
